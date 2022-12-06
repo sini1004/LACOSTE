@@ -1,0 +1,15 @@
+// 기본 컬러 지정
+:root {
+  --color-point: #0f5a33;
+  --color-gray: #767676;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
