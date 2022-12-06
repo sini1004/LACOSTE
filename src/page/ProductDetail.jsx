@@ -31,10 +31,10 @@ const ProductDetail = () => {
   return (
     <Container>
       <Row>
-        <Col xs={12} sm={7}>
+        <Col xs={12} sm={12} md={7}>
           <img src={product?.img} alt="" className='detail_img'/>
         </Col>
-        <Col xs={12} sm={{ span: 4, offset: 1 }}>
+        <Col xs={12} sm={12} md={{ span: 4, offset: 1 }}>
 
         { product?.new === true ? (<div className='new'>BEST</div>) : ''}
         
