@@ -11,6 +11,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 import ProductCard from '../components/ProductCard';
+import Main from '../components/Main';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Row, Col} from 'react-bootstrap';
 import {useSearchParams} from 'react-router-dom'
@@ -37,6 +38,7 @@ const ProductAll = () => {
 
   return (
     <div>
+      <Main />
       <Container>
         <Row>
           {productsList.map((menu)=>(
