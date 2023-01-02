@@ -7,6 +7,7 @@ import ProductDetail from './page/ProductDetail';
 import Navbar from './components/Navbar';
 import { useState, useEffect } from 'react';
 import PrivateRoute from './route/PrivateRoute';
+import Footer from './components/Footer';
 
 //Routes는 Route를 감싸주고, 스위치 해주는 역할
 //nav는 authenticate, setAuthenticate 전달해줘서 로그인, 로그아웃 표시되게 설정
@@ -37,6 +38,7 @@ function App() {
         <Route path='product/:id' element={<PrivateRoute authenticate={authenticate}/>} />
         <Route />
       </Routes> 
+      <Footer />
     </>
   );
 }
