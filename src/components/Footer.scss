@@ -1,0 +1,19 @@
+.footer_wrap {
+  width: 100%;
+  background-color: #f8f8f8;
+  margin-top: 50px;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #333;
+  }
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
